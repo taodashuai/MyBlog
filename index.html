@@ -8,14 +8,19 @@
 		<a>这里是韬大帅</a>
 	</body>
 	<script type="text/javascript">
-    (function (w, d, s, n, a, e) {
-        w[n] = w[n] || function () { (w[n].z = w[n].z || []).push(arguments) };
-        a = d.createElement(s), e = d.getElementsByTagName(s)[0];
-        a.async = 1;a.charset = "UTF-8";
-        a.src = "https://pubres.aihecong.com/hecong.js";
-        e.parentNode.insertBefore(a, e)
-    })(window, document, "script", "_AIHECONG");
-    _AIHECONG('ini',{ entId : 11417 });
+    window.KlSettings = {app_uuid: '8892e452-33f8-11e9-bf4b-00163e0c79f6'};
+    (function () {
+        function init() {
+            var a = document.createElement('script');
+            a.type = 'text/javascript';
+            a.async = !0;
+            a.charset = 'utf-8';
+            a.src = 'http://127.0.0.1:8903/assets/dist/js/kl.min.js';
+            var b = document.getElementsByTagName('script')[0];
+            b.parentNode.insertBefore(a, b)
+        }
+
+        init();
+    })();
 </script>
-	<script> window.ppSettings = {app_uuid:'bd31c626-331f-11e9-bf4b-00163e0c79f6'};(function(){var w=window,d=document;function l(){var a=d.createElement('script');a.type='text/javascript';a.async=!0;a.charset='utf-8';a.src='https://ppmessage.cn/ppcom/assets/pp-library.min.js';var b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b)}l();})();</script>
 </html>
