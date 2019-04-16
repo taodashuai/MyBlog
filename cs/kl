@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>客莱预览</title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+    window.KlSettings = {app_id: '1Iei7ppOY5j5MdUk9MOnSPcl6Bz'};
+    (function () {
+        function init() {
+            var a = document.createElement('script');
+            a.type = 'text/javascript';
+            a.async = !0;
+            a.charset = 'utf-8';
+            a.src = 'https://static.szcysoft.com/public/js/kelai.js';
+            var b = document.getElementsByTagName('script')[0];
+            b.parentNode.insertBefore(a, b)
+        }
+        init();
+    })();
+</script>
+</html>
