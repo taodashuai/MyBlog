@@ -1,0 +1,51 @@
+<!DOCtype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>获取浏览器信息</title>
+	</head>
+
+	<body onload="whatBrowser()">
+		<script>
+			function whatBrowser() {
+				console.log(navigator);
+				document.getElementById("appName").innerHTML = navigator.appName;
+				document.getElementById("appCodeName").innerHTML = navigator.appCodeName;
+				document.getElementById("appVersion").innerHTML = navigator.appVersion;
+				document.getElementById("connection").innerHTML = navigator.connection.effectiveType;
+				document.getElementById("userAgent").innerHTML = navigator.userAgent;
+			}
+		</script>
+		<table>
+			<form >
+				<tr>
+					<td> appName:</td>
+					<td>
+						<a id="appName"></a>
+				</tr>
+				<tr>
+					<td> appCodeName:</td>
+					<td>
+						<a id="appCodeName"></a>
+				</tr>
+				<tr>
+					<td> appVersion:</td>
+					<td>
+						<a id="appVersion"></a>
+				</tr>
+				<tr>
+					<td> connection:</td>
+					<td>
+						<a id="connection"></a>
+				</tr>
+				<tr>
+					<td> User-Agent:</td>
+					<td>
+						<a id="userAgent"></a>
+				</tr>
+			</form>
+		</table>
+	</body>
+
+</html>
